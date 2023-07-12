@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;300;500;600&family=Rubik+Glitch&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alexandria', sans-serif;
+    transition: 0.5s;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #9abcff;
+}
+main {
+    background-color: #ff9696;
+    width: 450px;
+    padding: 60PX;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    text-align: center;
+   
+}
+h1 {
+    text-align: center;
+    font-size: 34px;
+}
+p {
+    padding: 10px;
+    font-size: 24px;
+}
+.container {
+    flex-direction: column;
+}
+.button {
+    display: flex;
+    padding: 10px;
+}
+input  {
+    width: calc(100% - 100PX);
+    padding: 16px 5px;
+    outline: 0;
+    border: 2px solid #0B6FDC;
+    border-radius: 60PX 0 0 60PX;
+    text-align: center;
+
+} 
+
+button {
+    width: 100PX;
+    border: 1px solid #0B6FDC;
+    background-color: #0B6FDC ;
+    color: #fff;
+    border-radius: 0 60PX 60PX 0;
+    cursor: pointer;
+}
+
+#resultat {
+    text-align: center;
+}

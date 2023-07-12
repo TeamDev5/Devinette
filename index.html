@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+  <title>Jeu du devin</title>
+  <style>
+    #resultat {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu du devin</h1>
+        <p>Devinez le nombre secret entre 1 et 100 :</p>
+        <div class="button">
+            <input type="number" id="nombreSaisi">
+            <button onclick="devinerNombre()">Deviner</button>
+        </div>
+        <p id="resultat"></p>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
